@@ -1,4 +1,5 @@
 # ElasticSearch+Kibana+Head+Logstash 8.0 Python 3.8
+****
 # 一.ElasticSearch概述
 ## 1.ElasticSearch介绍 
 ### ES 是一个开源的高扩展的分布式全文搜索引擎，是整个Elastic Stack技术栈的核心。它可以近乎实时的存储，检索数据；本身扩展性很好，可以扩展到上百台服务器，处理PB级别的数据。
