@@ -15,3 +15,18 @@
 # 二.系统配置
     Ubuntu：18.04.6 LTS
     ip：192.168.81.100 ,192.168.81.101
+(1)ElasticSearch不能以root进行启动，为其添加用户权限。
+sudo chown -R xxx  /usr/local/elasticsearch-8.0.0
+(2)配置JDK
+Elasticsearch是使用java开发的，且高版本的ES需要JDK版本1.8以上，默认安装包带有jdk环境，如果系统配置JAVA_HOME，那么使用系统默认的JDK，如果没有配置使用自带的JDK。
+安装包自带JDK配置：
+/usr/local/elasticsearch-8.0.0/bin/elasticsearch-env增加JDK即可
+
+(3)修改用户拥有的内存权限
+/etc/sysctl.conf文件最后添加一行
+
+执行sysctl -p使其生效 
+(4)线程数修改
+/etc/security/limits.conf最后一行添加
+
+执行sysctl -p使其生效
