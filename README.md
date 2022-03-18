@@ -27,5 +27,4 @@
     执行sysctl -p使其生效 
 ## (4)线程数修改
     /etc/security/limits.conf最后一行添加
-
-执行sysctl -p使其生效
+    执行sysctl -p使其生效
