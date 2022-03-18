@@ -25,7 +25,7 @@
 ## (3)修改用户拥有的内存权限
     /etc/sysctl.conf文件最后添加一行
     执行sysctl -p使其生效 
-(4)线程数修改
-/etc/security/limits.conf最后一行添加
+## (4)线程数修改
+    /etc/security/limits.conf最后一行添加
 
 执行sysctl -p使其生效
