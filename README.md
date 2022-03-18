@@ -22,6 +22,7 @@
     Elasticsearch是使用java开发的，且高版本的ES需要JDK版本1.8以上，默认安装包带有jdk环境，如果系统配置JAVA_HOME，那么使用系统默认的JDK，如果没有配置使用自带的JDK。
     安装包自带JDK配置：
     /usr/local/elasticsearch-8.0.0/bin/elasticsearch-env增加安装包里面JDK即可
+    JAVA_HOME="/usr/local/elasticsearch-8.0.0/jdk"
 ## (3)修改用户拥有的内存权限
     /etc/sysctl.conf文件最后添加一行
     执行sysctl -p使其生效 
