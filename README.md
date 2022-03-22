@@ -37,4 +37,4 @@
     详情见pdf文档
 # 五．ElasticSearch-Head安装
 ## 1.简介
-elasticsearch-head被称为是elasticsearch集群的web前端，head插件主要是用来和elastic Cluster交互的Web前端。
+    elasticsearch-head被称为是elasticsearch集群的web前端，head插件主要是用来和elastic Cluster交互的Web前端。
