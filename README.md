@@ -39,4 +39,4 @@
 ## 1.简介
     elasticsearch-head被称为是elasticsearch集群的web前端，head插件主要是用来和elastic Cluster交互的Web前端。
 ## 2.ElasticSearch-Head配置
-ES5以上的版本中安装Elasticsearch-Head必须要安装NodeJs,然后通过NodeJS来启动Head。
+    ES5以上的版本中安装Elasticsearch-Head必须要安装NodeJs,然后通过NodeJS来启动Head。
