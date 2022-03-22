@@ -35,7 +35,7 @@
     Kibana 可以使大数据通俗易懂。它很简单，基于浏览器的界面便快速创建和分享动态数据仪表板来追踪 Elasticsearch 的实时数据变化。
 ## 2.Kibana配置
     详情见pdf文档
-# 五．ElasticSearch-Head安装
+# 五.`ElasticSearch-Head`安装
 ## 1.简介
     elasticsearch-head被称为是elasticsearch集群的web前端，head插件主要是用来和elastic Cluster交互的Web前端。
 ## 2.ElasticSearch-Head配置
