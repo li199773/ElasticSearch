@@ -33,11 +33,11 @@
 ## 1.简介
     Kibana 是一款开源的数据分析和可视化平台，它是 Elastic Stack 成员之一，设计用于和 Elasticsearch 协作。可以使用 Kibana 对 Elasticsearch 索引中的数据进行搜索、查看、交互操作。可以很方便的利用图表、表格及地图对数据进行多元化的分析和呈现。
     Kibana 可以使大数据通俗易懂。它很简单，基于浏览器的界面便快速创建和分享动态数据仪表板来追踪 Elasticsearch 的实时数据变化。
-## 2.Kibana配置
+## 2.`Kibana`配置
     详情见pdf文档
 # 五.`ElasticSearch-Head`安装
 ## 1.简介
     elasticsearch-head被称为是elasticsearch集群的web前端，head插件主要是用来和elastic Cluster交互的Web前端。
-## 2.ElasticSearch-Head配置
+## 2.`ElasticSearch-Head`配置
     ES5以上的版本中安装Elasticsearch-Head必须要安装NodeJs,然后通过NodeJS来启动Head。
 # 六. `ElasticSearch`操作
