@@ -16,6 +16,7 @@
 # 二.系统配置
     Ubuntu：18.04.6 LTS
     ip：192.168.81.100 ,192.168.81.101
+****
 # 三.`ElasticSearch`配置
 ## (1)ElasticSearch不能以`root`进行启动，为其添加用户权限。
     sudo chown -R xxx  /usr/local/elasticsearch-8.0.0
