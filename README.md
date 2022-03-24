@@ -31,6 +31,7 @@
 ## (4)线程数修改
     /etc/security/limits.conf最后一行添加
     执行sysctl -p使其生效
+****
 # 四.`Kibana`安装
 ## 1.简介
     Kibana 是一款开源的数据分析和可视化平台，它是 Elastic Stack 成员之一，设计用于和 Elasticsearch 协作。可以使用 Kibana 对 Elasticsearch 索引中的数据进行搜索、查看、交互操作。可以很方便的利用图表、表格及地图对数据进行多元化的分析和呈现。
