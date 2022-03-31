@@ -76,7 +76,5 @@
     Logstash 主要是用来日志的搜集、分析、过滤日志的工具，支持大量的数据获取方式。一般工作方式为c/s架构，client端安装在需要收集日志的主机上，server端负责将收到的各节点日志进行过滤、修改等操作在一并发往elasticsearch上去。
     logstash从输入源接受数据，直接发送达目的地，或者对数据进行过滤后在传输到目的地。
 (1)Input：输入源
-可以从文件中、存储中、数据库中抽取数据，Input有两种选择一个是交给Filter进行过滤、修剪。另一个是直接交给Output。logstash支持多种输入源，如：stdin、beats、elasticsearch、file、jdbc、redis等。
 (2)Filter：过滤器
-能够动态地转换和解析数据。可以通过自定义的方式对数据信息过滤、修剪。logstash提供多种过滤器，过滤器可不使用，如：grok、geoip、date等。
-Output：输出源
+(3)Output：输出源
