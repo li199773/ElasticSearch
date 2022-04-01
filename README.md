@@ -92,7 +92,6 @@
     (1)Input：输入源
     (2)Filter：过滤器
     (3)Output：输出源
-2.标准输入输出
-下载地址：https://www.elastic.co/cn/downloads/past-releases#logstash
-logstash启动：
-/usr/local/logstash-8.0.0//logstash -e 'input { stdin {} } output { stdout {} }'
+## 2.标准输入输出
+    logstash启动：
+    /usr/local/logstash-8.0.0//logstash -e 'input { stdin {} } output { stdout {} }'
