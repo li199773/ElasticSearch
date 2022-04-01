@@ -95,3 +95,7 @@
 ## 2.标准输入输出
     logstash启动：
     /usr/local/logstash-8.0.0//logstash -e 'input { stdin {} } output { stdout {} }'
+3.日志采集
+3.1 输出到文件
+3.2 输出到ES
+3.3 指定文件输出
