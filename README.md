@@ -110,3 +110,7 @@
 # 5.数据迁移
 ## 1.配置文件
     需要mysql-connector-java 驱动程序
+5.2 配置查询语句
+SELECT * FROM mail_2022_01
+5.3 Logstash检查并启动
+./logstash -f /usr/local/logstash-8.0.0/my/jdbc.conf -t
