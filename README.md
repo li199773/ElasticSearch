@@ -107,3 +107,6 @@
 ### 2.date插件
 ### 3.remove_field的用法
 ### 4.过滤器解析日志存到es
+# 5.数据迁移
+## 1配置文件
+    需要mysql-connector-java 驱动程序
