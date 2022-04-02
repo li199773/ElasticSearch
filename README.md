@@ -114,4 +114,4 @@
     SELECT * FROM mail_2022_01
 ## 3 Logstash检查并启动
     ./logstash -f /usr/local/logstash-8.0.0/my/jdbc.conf -t
-# 详情见`pdf`文件
+# 详细内容见`pdf`文件
