@@ -1,0 +1,1 @@
+SELECT * FROM mail_2022_01
